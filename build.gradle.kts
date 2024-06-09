@@ -19,6 +19,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.lmax:disruptor:4.0.0")
+	implementation("org.apache.kafka:kafka-clients:3.7.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
